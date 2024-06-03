@@ -1,0 +1,86 @@
+/* Container Styles */
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Corrected grid-template-columns */
+  gap: 20px; /* Add gap between grid items */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button[type="submit"] {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Card Styles */
+.formCard {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.formcardimg {
+  width: 100%;
+  height: auto;
+}
+
+.formcardDetails {
+  padding: 20px;
+}
+
+.formcardDetails .formTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.formcardDetails .formTitleDescription span {
+  font-size: 18px;
+  color: #555;
+}
+
+.formcardDetails .formText {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}

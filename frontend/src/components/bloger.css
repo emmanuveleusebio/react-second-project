@@ -1,0 +1,30 @@
+.blogerImg{
+    width: 100%;
+}
+.blogerImg img{
+    width: 100%;
+}
+.titleDescription{
+    margin-bottom: 30px;
+    font-size: 15px;
+    margin-top: inherit;
+    line-height: 24px;
+   
+}
+.blogerMain{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+
+}
+.title{
+    font-size: 24px ;
+    font-weight: 600;
+    margin: 0 0 10px;
+    
+}
+.blogerMain{
+    background: white;
+}
+.content{
+ 
+    padding: 0 10px 1px 10px;
+}

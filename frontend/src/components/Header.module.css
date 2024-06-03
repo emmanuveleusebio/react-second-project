@@ -1,0 +1,24 @@
+
+.title h1{
+    font-weight: inherit;
+    font-size: inherit;
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: inherit;
+}
+.title{
+    padding: 40px;
+    text-align: center;
+    padding-top: 40px;
+   
+}
+.title p{
+    font-size: 15px;
+}
+.title p span{
+background-color: black;
+color: white;
+padding: 0px 10px;
+}
+
+

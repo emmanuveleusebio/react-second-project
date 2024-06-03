@@ -1,0 +1,69 @@
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+     background-color: white; 
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19); 
+}
+.title{
+    font-size: 24px ;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+.titleDescription{
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+.cardDetails{
+    padding: 10px 15px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.cardimg{
+    width: 100%;
+    height: 255px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.text{
+    margin-bottom: 30px;
+    font-size: 15px;
+    margin-top: inherit;
+    line-height: 24px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card button{
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    border: 1px solid #ccc;
+    color: #000;
+    background-color: #fff;
+    font-size: 15px;
+   font-weight: bolder;
+}
+.card button:hover{
+    background-color: #ccc;
+    cursor: pointer;
+    transition: all 100ms;
+}
+.footer span {
+    display: inline-flex;       /* Use inline-flex to keep the span inline and apply flexbox properties */
+    align-items: center;        /* Vertically center the text */
+    justify-content: center;    /* Horizontally center the text */
+    background: #000;
+    color: #fff;
+    width: 30px;                /* Set equal width and height to create a circle */
+    height: 30px;               /* Same value as width */
+    border-radius: 50%;         /* Make it a circle */
+    font-size: 13px;
+}
+
+
+

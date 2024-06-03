@@ -1,0 +1,54 @@
+.tagLists:hover{
+    background-color: black;
+    color: white;
+    padding: 0px 8px;
+    font-size: 12px;
+    cursor: context-menu;
+}
+.tags{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.tagLists{
+    font-size: 12px;
+    background-color: #f1f1f1;
+    padding: 0px 8px;
+    display: flex;
+    align-items: center;
+    min-height: 20px;
+   
+}
+.tagUl{
+    list-style: none;
+    background-color: white;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+}
+.tagUl li{
+    margin-bottom: 16px;
+   
+}
+
+.tags p{
+    padding: 0;
+    margin: 0;
+}
+.tags header{
+   
+    padding: 20px 10px;
+    font-size: 20px;
+}
+.places{
+    list-style: none;
+    background-color: white;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 16px;
+   
+}
+
