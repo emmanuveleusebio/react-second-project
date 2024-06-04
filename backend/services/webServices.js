@@ -2,7 +2,7 @@ const cards = require('../models/cardModel')
 
 const homeRender = async (req, res) => {
   try {
-    const datas = await cards.find();
+    const datas = await cards.find().sort({ createdAt: -1 });;
     console.log(datas);
     res.status(200).json(datas);
   } catch (error) {

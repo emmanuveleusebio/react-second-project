@@ -104,16 +104,7 @@ const FormCard = () => {
       <button type="submit">Submit</button>
     </form>
     <div>
-    {/* <Card className="formCard" >  
-    <Card.Img className="formcardimg" variant="top" src={formData.img} />
-    <Card.Body className="formcardDetails">
-    <Card.Title className="formTitle">{formData.title}</Card.Title>
-    <Card.Title className="formTitleDescription"><span>{formData.description}</span></Card.Title>
-    <Card.Text className="formText">{formData.blog}</Card.Text>
-    
-    </Card.Body>
-    
-  </Card> */}
+  
   <CardPost data={formData} />
     </div>
     </div>
